@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'lato',sans-serif;
+} 
+.nv{
+    background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png) ;
+    width: 100%;
+    height: 400px;
+}
+.nv nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    color: white;
+}
+.nv nav .right{
+    display: flex;
+}
+nav p{
+    margin-inline: 11px ;
+    margin-top: 22px;
+}
+.nv .logo{
+    text-align: center;
+}
+.nv .logo img{
+    width: 42%;
+    margin-top: 66px;
+}
+.nv .inp{
+    text-align: center;
+}
+.nv .text{
+    text-align: center;
+    color: white;
+    margin-top: 22px;
+    font-size: 20px;
+}
+.nv .inp input{
+    width: 600px;
+    height: 10px;
+    font-size: 19px;
+    padding: 22px;
+    border: none;
+    border-radius:10px ;
+    outline: none;
+    margin-top: 22px;
+    font-family: 'mukta',sans-serif;
+}
+.card {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.card .crd img{
+    width: 320px;
+    height: 220px;
+    border-radius: 6px;
+    margin-top: 55px;
+}
+.colle .txt{
+    margin-left: 34px;
+    margin-top: 64px;
+    padding: 33px;
+}
+.colle .rest{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.colle .rest img{
+    width: 320px;
+    height: 220px;
+    border-radius: 6px;
+    margin-top: 55px;
+
+}
+.app{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: transparent;
+    background-color:rgb(235, 231, 232);
+    margin-top: 66px;
+    margin-left: 60px;
+    border-radius: 20px;
+}
+.app img{
+    width: 37%;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.btn h1{
+    margin-left: 44px;
+    margin-top: 44px;
+    padding: 33px;
+}
+.btn button{
+    width: 900px;
+    height: 60px;
+    background-color: transparent;
+    border-color: rgb(201, 201, 201);
+    border: 1p px solid gray;
+    border-radius: 5px;
+    margin-top: 11px;
+    margin-left:203px; 
+    font-size: 22px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(214, 208, 208);
+    margin-top: 44px;
+    padding: 44px;
+}
